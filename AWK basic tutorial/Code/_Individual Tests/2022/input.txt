@@ -1,0 +1,9 @@
+def f(x, d, a):
+if d <= x:
+c= 0
+while x % d == 0:
+c+= 1
+x //= d
+a(c, end=" ")
+f(x, d+1, a)
+f(120, 2, print)

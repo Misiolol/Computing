@@ -1,0 +1,16 @@
+[wzorzec] <program>
+
+plik prof. Nawrockiego z 2006 o skladni awk -> <https://www.cs.put.poznan.pl/akozak/students/wdi/07cw5-awk.pdf>
+
+AWK wczytuje dane z pliku linijka po linicje sprawdzając jego poprawność z wzorcem
+-> patrz first-task.awk -> Program wyłapujący wszystkie osoby których imie kończy się na "*asia"
+
+
+second-task -> spośród kończących się na "asia" znajdujemy Zosia i printujemy z dodatkiem witaj
+
+third-task -> AWK SAMEMU SOBIE DZIELI TEKST NA KOLUMNY PATRZĄC PO SPACJACH, podajemy mu kolumny iterując się od 1 po dolarze, 
+            $0 -> cała linijka
+            $1 -> pierwsza kolumna (u nas imie)
+            $2 -> druga kolumna (u nas nazwisko)
+            ----------> wypiszemy więc Witam "imie" tylko dla Zosi
+

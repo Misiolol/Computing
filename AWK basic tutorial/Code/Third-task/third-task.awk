@@ -1,0 +1,1 @@
+/^Zosia/ {print "Witaj " $1}

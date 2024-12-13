@@ -1,0 +1,15 @@
+Nie da sie. (bez tegj strony)
+
+	https://kobzol.github.io/davis/   <- super stronka
+
+zasady używania:
+wszystkie zmienne i komendy muszą być capslockiem
+zmienne muszą zaczynać się od "E" (bo architektura 32bit ig)
+odpalamy program od: 
+
+		section .text
+   			CALL _start
+    			HLT
+
+gdzie HLT to halt jako koniec
+Reszta tak jak u profesora. (kody podane w repo są dostosowane)
